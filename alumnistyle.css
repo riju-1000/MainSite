@@ -1,9 +1,9 @@
 .stack {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 .alumniCard {
-  height: 400px;
-  margin-bottom: 30px;
+  height: 390px;
+  margin-bottom: 50px;
 }
 .alumniCard2 {
   height: 100%;
@@ -32,9 +32,15 @@
   text-align: center;
 }
 strong h3 {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 0;
-  font-size: 20px;
+  padding-bottom: 0px;
+  font-size: 24px;
+}
+.content p {
+  font-size: 12px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 .socialIcons {
   display: flex;
