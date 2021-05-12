@@ -18,6 +18,10 @@
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -2px -2px 12px rgba(0, 0, 0, 0.2);
   transform: scale(1.08);
 }
+.batchHeading{
+  margin-bottom: 40px;
+  color: rgba(227,154,49);
+}
 .alumniCard img {
   height: 250px;
   width: 600px;
@@ -56,3 +60,6 @@ strong h3 {
   width: 100%;
 }
 
+footer{
+  margin-top: 60px;
+}
