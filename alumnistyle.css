@@ -1,5 +1,5 @@
 .stack {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 .alumniCard {
   height: 390px;
@@ -54,9 +54,8 @@ strong h3 {
 
 .carousel-cell {
   width: 66%;
-  height: 50vh ;
+  height: 65vh ;
   margin-right: 10px;
-  background: #8c8;
   border-radius: 5px;
   counter-increment: gallery-cell;
 }
