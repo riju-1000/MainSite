@@ -1,0 +1,102 @@
+.heading {
+    text-align: center;
+    margin-top: 4rem;
+  }
+.heading hr {
+    border: 0.5px solid rgba(50, 51, 51, 0.4);
+    margin-top: 0px;
+    width: 30%;
+}
+.lgx-inner {
+    padding-top: 4rem;
+}
+.wrapper {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team_header {
+    text-align: center;
+    border: 2px solid #12489E;
+    border-radius: 15px;
+    margin-bottom: 45px;
+  }
+.team_header p {
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    padding: 10px;
+}
+.Card {
+    margin-bottom: 50px;
+}
+.Card2 {
+    height: 100%;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 0.8s;
+  
+    /* box-shadow: 2px 2px 8px   rgba(227,154,49,0.4),-2px -2px 8px   rgba(227,154,49,0.3); */
+    /* box-shadow: 2px 2px 10px   rgba(0,0,0,0.3),-3px -3px 10px   rgba(0,0,0,0.3); */
+}
+.Card2:hover {
+    box-shadow: 2px 2px 12px rgba(50, 51, 51, 0.3), -2px -2px 12px rgba(50, 51, 51, 0.3);
+    transform: scale(1.08);
+}
+.Card img {
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content {
+    text-align: center;
+}
+.content h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    font-size: 21px;
+    font-family: 'montserrat' , sans-serif;
+    line-height: 1.5;
+}
+.content p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.socialIcons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+
+.socialIcons .social-group li a .fa-facebook-f {
+  color: #3b5998;
+}
+.socialIcons .social-group li a .fa-linkedin {
+  color: #00a0dc;
+}
+.socialIcons .social-group li a .fa-instagram {
+  color: #c13584;
+}
+.socialIcons .social-group li a .fa-envelope {
+    color: rgba(227, 154, 49, 0.6)
+  }
+.socialIcons .social-group li a:hover {
+    color: #e39a31;
+}
+.socialIcons .social-group li a:hover i {
+    color: inherit;
+} 
+
+@media only screen and (max-width: 768px){
+    .Card2:hover {
+        transform: scale(1.01);
+    }
+}

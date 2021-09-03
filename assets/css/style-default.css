@@ -3049,8 +3049,8 @@ textarea.form-control {
   position: relative;
 }
 .lgx-single-teacher figure a img {
-  height: 400px;
-  width: 600px;
+  height: 360px;
+  width: 100%;
   border-radius: 6px;
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
